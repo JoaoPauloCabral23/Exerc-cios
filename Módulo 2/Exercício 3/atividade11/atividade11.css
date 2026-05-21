@@ -1,0 +1,25 @@
+/* h1 e h2 em blueviolet (selector de grupo) */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* seletor filho (>) para o primeiro parágrafo */
+.box > p {
+  color: firebrick;
+}
+
+/* descendant selector: todos os itens da lista em azul */
+ul li {
+  color: blue;
+}
+
+/* chaining selector (classe + posição) para 2º e 3º itens */
+ul.list li.done {
+  color: seagreen;
+}
+
+/* "Outras Opções" com font-size 0.5rem */
+ul > p.done {
+  font-size: 0.5rem;
+}

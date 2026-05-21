@@ -1,0 +1,27 @@
+/* Não Altere o CSS Inicial, Apenas Adicione o Seu CSS. */
+
+.box {
+    background-color: blue;
+    padding: 10px;
+  }
+  
+  /* Adições */
+  #outer-box {
+    background-color: purple;
+    border: 10px solid purple;
+    margin: 10px;
+  }
+  
+  .inner-box {
+    background-color: red;
+  }
+  
+  p {
+    color: yellow;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .white-text {
+    color: white;
+  }
