@@ -6,5 +6,3 @@ frutas.push("Uva");
 frutas.unshift("Morango");
 frutas.pop();
 frutas.shift();
-
-
