@@ -86,3 +86,21 @@ btnCancelar.addEventListener('click', () => {
     formEdicao.style.display = 'none';
     console.log("Edição Cancelada")
 });
+
+btnSalvar.addEventListener('click', () => {
+
+    const novoNome = inputNome.value.trim();
+    const novaProfissao = inputProfissao.value.trim();
+
+    if(novoNome === ''){
+        alert('O nome não pode ser vazio! Tongão!');
+        return;
+    }
+
+    nomeUsuario.textContent = novoNome;
+    profisaoUsuario.textContent = novaProfissao || 'Sem Profissão';
+
+    formEdicao.style.display = 'none';
+
+    console.log(`Perfil salvo: ${novoNome} ${novaProfissao}`);
+})
